@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+.search-bg-container {
+    background-color: red;
+    width: 150px;
+    display: flex;
+    height: 50px;
+    text-align: left;
+}
+
+.search-element {
+    width: 90px;
+    height: 20px;
+}
+
+.main-image {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.main-heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+}
+
+.location-container {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.main-para {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 160% */
+}
+
+.page-container {
+    background-color: #BDBAB9;
+    margin: 20px;
+
+}
+
+.main-page-text-container {
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+.cards-bg-container {
+    background-color: #F5F2F1;
+
+    padding: 10px;
+    width: 100vw;
+    background-size: cover;
+}
+
+.popular-rooms-container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    width: 500px;
+    margin: 10px;
+
+}
+
+.room-card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-image {
+    width: 450px;
+    height: 300px;
+    background-size: cover;
+}
+
+.price-rating {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.room-wrap-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+
+}
+
+.cards-room-heading {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 125% */
+}
+
+.cards-room-para {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+    padding-right: 10px;
+}
+
+.star-image {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.rating {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+    padding-left: 10px;
+}
+
+.best-container {
+    display: flex;
+    flex: row;
+
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.best-container-para {
+    display: flex;
+    flex-direction: column;
+}
+
+.best-container-button {
+    border: none;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 35px;
+    background: rgba(255, 118, 101, 0.80);
+    width: 250px;
+    color: white;
+    text-align: center;
+
+}
+
+.best-container-heading {
+    color: black;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    /* 125% */
+}
+
+.best-container-para {
+    color: black;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.best-container-card-container {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 240px;
+    text-align: center;
+    align-items: center;
+}
+
+.best-container-card-container-text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.best-falcilities-images {
+    width: 60px;
+    height: 60px;
+
+}
+
+.best-falcilities-images-para {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+
+}
+
+.history-container {
+    background-color: #F4C5B5;
+    display: flex;
+    margin: 20px;
+    padding: 15px;
+
+
+}
+
+.history-image {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.histoty-column-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.history-heading {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 20px;
+    line-height: 50px;
+    /* 125% */
+
+}
+
+.history-para {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.frequently-asked-question-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.frequently-asked-question-container-para {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.frequently-asked-question-card-container {
+    background-color: white;
+    width: 50%;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-container {
+    background-image: url("https://d1xzdqg8s8ggsr.cloudfront.net/651d497fb51ba15e55955544/6cde14fe-19e9-4255-a2a8-9cf2d4de06e2_1696418236669071451?Expires=-62135596800&Signature=PdufhxKQEeFxQ6GaLUEETwjj6u~5HnSzvGdKuMbn2PTKXm-0nu6X3G988SBFfhAbXhyyrIMbh8~Nlren1EUC7kk0YOFezoHPV2egscHogMDnO0wao57EsnyD90lK6TQ8PjihzaTl-E1MHjYJyfIQuZ4jcGBxTgRtAQPI0UqMrH-Yg6I1h8Fdx20wWwnx8Xb1N6~iojzXsDH4pJhbvbBv2EYw4lYiaalEC5Zlteof5aJL8bIVWpKmlxM5E~OD350YxlfTZONgVbkxbj4WgC1Ffj6vJyVWF3-1-qtqgfbl6ixw-vYX01TAHNaAy8nXw1ZA7C4bczTGJ8F8k9xYrpRNhA__&Key-Pair-Id=K1P54FZWCHCL6J");
+    width: 95vw;
+    height: 700px;
+    margin: 20px;
+
+    background-size: cover;
+
+}
+
+.image-card-container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section {
+    background-color: #CF9F8F;
+    padding: 20px;
+    color: white;
+}
+
+.footer-section-images {
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer-image {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.footer-home-section {
+    padding: 10px;
+}
